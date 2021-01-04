@@ -2,8 +2,7 @@ from tkinter import *
 
 # new Tk instance from tkinter
 window = Tk()
-window.minsize(width=300, height=300)
-window.config(padx=100, pady=100, bg="green")
+window.config(padx=20, pady=20, bg="green")
 # Entry widget
 entry = Entry(width=10)
 # Add some text to begin with
