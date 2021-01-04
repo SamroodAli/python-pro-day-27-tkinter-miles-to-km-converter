@@ -7,7 +7,7 @@ FONT = ("Ariel", 20, "italic")
 # new Tk instance from tkinter
 window = Tk()
 window.config(padx=20, pady=20, bg="red")
-
+window.title("Miles to Kilometers converter")
 # Entry widget
 entry = Entry(width=10, font=FONT)
 # Add some text to begin with
